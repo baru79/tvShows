@@ -1,0 +1,46 @@
+.header {
+  padding-top: 20px;
+  display: flex;
+}
+
+.button {
+  margin-left: auto;
+}
+
+.buttonClose {
+  font-size: 30px;
+  font-weight: lighter;
+  color: gray;
+  padding-right: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  padding-left: 100px;
+}
+
+.title > h1,
+.title > p {
+  margin: 0;
+  padding: 0;
+}
+
+.title > h1 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.title > p {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  color: gray;
+}
